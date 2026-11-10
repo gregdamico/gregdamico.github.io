@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greg D'Amico | Healthcare Data Analyst</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container">
+      <h1>Greg D'Amico</h1>
+      <p class="tagline">Healthcare Data Analyst & Investigative Writer</p>
+      <nav class="header-nav">
+        <a href="[YOUR_LINKEDIN_URL]" target="_blank">LinkedIn</a>
+        <a href="[YOUR_MEDIUM_URL]" target="_blank">Medium</a>
+        <a href="https://github.com/gregdamico" target="_blank">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    
+    <!-- HERO SECTION -->
+    <section class="hero-section">
+      <h2>Forensic Medicare Auditing & Data Architecture</h2>
+      <p>
+        My work bridges the gap between predictive data science and forensic investigative journalism. Below is a four-phase enterprise architecture designed to map non-linear upcoding behavior and detect administrative latency within the federal healthcare payment system, analyzing both synthetic baselines and 802,000 real-world California CMS claims.
+      </p>
+    </section>
+
+    <!-- SYNTHETIC SANDBOX SECTION -->
+    <section id="synthetic-sandbox" class="portfolio-section">
+      <div class="section-header">
+        <h2>Part 1: The Synthetic Sandbox (Methodology & Baseline)</h2>
+        <p class="section-subtitle">
+          Before touching real-world federal data, I established my mathematical baselines in a controlled environment. These phases utilize 50,000 synthetic healthcare claims to build, test, and validate both deterministic and glass-box machine learning algorithms.
+        </p>
+        <a href="https://github.com/gregdamico/[YOUR_SYNTHETIC_REPO_NAME]" class="btn repo-link" target="_blank">View Sandbox Repository</a>
+      </div>
+
+      <div class="phase-grid">
+        <!-- PHASE 1: IQR -->
+        <div class="phase-card" id="phase-1">
+          <div class="phase-card-header">
+            <h3>Phase 1: Deterministic Anomaly Detection</h3>
+            <span class="badge">Python</span> <span class="badge">Pandas</span> <span class="badge">IQR</span>
+          </div>
+          <div class="phase-card-body">
+            <p>Establishing a strict baseline for statistical outliers. Before predicting fraud, an auditing architecture must be able to isolate mathematically undeniable anomalies in billing volume and cost.</p>
+            <ul>
+              <li><strong>The Architecture:</strong> Built a Python pipeline from scratch to process 50,000 synthetic claims.</li>
+              <li><strong>The Discovery:</strong> Applied Interquartile Range (IQR) logic to systematically isolate $3.6M in synthetic Gastroenterology billing waste.</li>
+              <li><strong>The Philosophy:</strong> Proving that robust, deterministic thresholds are highly effective before introducing complex machine learning layers.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- PHASE 2: EBM -->
+        <div class="phase-card" id="phase-2">
+          <div class="phase-card-header">
+            <h3>Phase 2: Glass-Box Machine Learning</h3>
+            <span class="badge">InterpretML</span> <span class="badge">EBM</span> <span class="badge">Glass-Box AI</span>
+          </div>
+          <div class="phase-card-body">
+            <p>Rejecting the opacity of "black-box" neural networks. In legal and healthcare auditing, a model that cannot explain its own math is a liability.</p>
+            <ul>
+              <li><strong>The Architecture:</strong> Implemented Explainable Boosting Machines (EBM) using Microsoft's open-source InterpretML library.</li>
+              <li><strong>The Philosophy:</strong> Advocating for transparent, deterministic "glass-box" models that provide the accuracy of random forests while maintaining exact mathematical interpretability.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REAL-WORLD DEPLOYMENT SECTION -->
+    <section id="real-world-deployment" class="portfolio-section">
+      <div class="section-header">
+        <h2>Part 2: Real-World Deployment (802,000 Claims)</h2>
+        <p class="section-subtitle">
+          Moving from the synthetic sandbox to a production environment. Applying continuous regression and deterministic forensic auditing to real-world 2024 California CMS datasets.
+        </p>
+        <a href="https://github.com/gregdamico/fwa-claims-pipeline" class="btn repo-link" target="_blank">View Master Repository: fwa-claims-pipeline</a>
+      </div>
+
+      <div class="phase-grid">
+        <!-- PHASE 3: PyGAM -->
+        <div class="phase-card" id="phase-3">
+          <div class="phase-card-header">
+            <h3>Phase 3: Continuous Regression & Non-Linear Upcoding</h3>
+            <span class="badge">PyGAM</span> <span class="badge">Python</span> <span class="badge">802k Records</span>
+          </div>
+          <div class="phase-card-body">
+            <p>Most fraud detection relies on linear thresholds. Phase 3 utilizes <strong>Generalized Additive Models (PyGAM)</strong> to map the hidden, non-linear curves of Medicare upcoding across 802,000 claims.</p>
+            <ul>
+              <li><strong>The Architecture:</strong> Engineered a chunked ingestion pipeline to process massive federal datasets without memory crashes.</li>
+              <li><strong>The Output:</strong> Generated interpretable partial dependence plots exposing the mathematical inflection points where aggressive billing deviates from standard practice.</li>
+            </ul>
+          </div>
+          <div class="phase-card-footer">
+            <a href="[LINK_TO_MEDIUM_SHAPE_OF_MATH]" class="btn article-link" target="_blank">Read: The Shape of the Math</a>
+          </div>
+        </div>
+
+        <!-- PHASE 4: LEIE FORENSIC AUDIT -->
+        <div class="phase-card" id="phase-4">
+          <div class="phase-card-header">
+            <h3>Phase 4: Deterministic Audit & Administrative Latency</h3>
+            <span class="badge">Pandas</span> <span class="badge">DOJ Cross-Reference</span> <span class="badge">LEIE Forensics</span>
+          </div>
+          <div class="phase-card-body">
+            <p>Transitioning from probabilistic algorithms to binary forensics by executing a strict chronological inner merge between the CMS ledger and the <strong>HHS OIG List of Excluded Individuals/Entities (LEIE)</strong>.</p>
+            <ul>
+              <li><strong>The Discovery:</strong> Identified anomalous 2024 claims tied to 5 excluded providers, including indictments for fentanyl manufacturing and fake surgical implant schemes (Stivax).</li>
+              <li><strong>The Forensic Insight:</strong> Cross-referencing DOJ dockets exposed massive <strong>administrative latency</strong> (up to 24 months between federal conviction and LEIE exclusion).</li>
+              <li><strong>The Temporal Fog:</strong> Documented how the CMS Public Use File's yearly aggregation acts as an accountability shield, making independent chronological auditing mathematically impossible.</li>
+            </ul>
+          </div>
+          <div class="phase-card-footer">
+            <a href="[LINK_TO_MEDIUM_GHOSTS_IN_LEDGER]" class="btn article-link" target="_blank">Read: Ghosts in the Ledger</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Greg D'Amico. Built for enterprise data auditing.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
