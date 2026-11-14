@@ -216,7 +216,7 @@ body {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: top; /* <--- THIS SHIFTS THE CROP UP */
+    object-position: 50% 10%; /* <--- THIS SHIFTS THE CROP UP */
     border: 4px solid #ffffff; 
     margin-bottom: 20px;
     display: block;
